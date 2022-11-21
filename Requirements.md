@@ -16,6 +16,8 @@ To install pyQt5
  " pip install pyqt5-tools "
     Wait for the downloads to complete
     
+Open QTDesigner to make the Graphical User Interface(GUI)
+    
 To install MySQL Connector for python
 -open commmand prompt
 -type pip install mysql-connector-python
@@ -24,10 +26,14 @@ To install MySQL Connector for python
 To connect MySQL Connector in python
 -import mysql.connector as con
 -con.connect(host='localhost' , port = '3306' , user = 'Your_Username' , password = 'Your_Password' , database = 'Your_Database')
-
 Please BE AWARE that user, password, and database information will change from mine.
+
+Creation of all the tables ARE PROVIDED in the word doc which is attached.
+
+
+
   
 
-Open QTDesigner to make the Graphical User Interface(GUI)
+
 
 
