@@ -15,6 +15,11 @@ To install pyQt5
 -To install development tools such as Qt Designer to support PyQt5, following is the command−
  " pip install pyqt5-tools "
     Wait for the downloads to complete
+    
+To install MySQL Connector for python
+-open commmand prompt
+-type pip install mysql-connector-python
+  Wait for the downloads to complete
+  
+  
 
-
-PyQt is a GUI widgets toolkit. It is a Python interface for Qt, one of the most powerful, and popular cross-platform GUI library.
