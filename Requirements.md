@@ -29,6 +29,7 @@ To connect MySQL Connector in python
 Please BE AWARE that user, password, and database information will change from mine.
 
 Creation of all the tables ARE PROVIDED in the word doc which is attached.
+REFER TO THE Report.docx provided to find the detailed report.
 
 
 
