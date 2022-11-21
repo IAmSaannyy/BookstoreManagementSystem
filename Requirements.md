@@ -21,7 +21,13 @@ To install MySQL Connector for python
 -type pip install mysql-connector-python
   Wait for the downloads to complete
   
- 
+To connect MySQL Connector in python
+-import mysql.connector as con
+-con.connect(host='localhost' , port = '3306' , user = 'Your_Username' , password = 'Your_Password' , database = 'Your_Database')
+
+Please BE AWARE that user, password, and database information will change from mine.
+  
+
 Open QTDesigner to make the Graphical User Interface(GUI)
 
 
