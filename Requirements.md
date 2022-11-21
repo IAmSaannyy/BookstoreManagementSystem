@@ -21,5 +21,7 @@ To install MySQL Connector for python
 -type pip install mysql-connector-python
   Wait for the downloads to complete
   
-  
+ 
+Open QTDesigner to make the Graphical User Interface(GUI)
+
 
