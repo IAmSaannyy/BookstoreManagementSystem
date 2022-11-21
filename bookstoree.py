@@ -43,7 +43,7 @@ class MainApp(QMainWindow, ui):
 
 		self.tabWidget.setCurrentIndex(0)
 		try:
-			mydb = con.connect(host='localhost' , port = '3306' , user = 'root' , password = 'S@nvith03' , database = 'bookstore')
+			mydb = con.connect(host='localhost' , port = '3306' , user = 'root' , password = 'password' , database = 'bookstore')
 			cursor = mydb.cursor()
 
 			id = self.tb01.text()
@@ -72,7 +72,7 @@ class MainApp(QMainWindow, ui):
 	def displaybook(self):
 		self.tabWidget.setCurrentIndex(1)
 		try:
-			mydb = con.connect(host='localhost' , port = '3306' , user = 'root' , password = 'S@nvith03' , database = 'bookstore')
+			mydb = con.connect(host='localhost' , port = '3306' , user = 'root' , password = 'password' , database = 'bookstore')
 			cursor = mydb.cursor()
 
 			query = "select * from books"
@@ -99,7 +99,7 @@ class MainApp(QMainWindow, ui):
 	def bookborrow(self):
 		self.tabWidget.setCurrentIndex(2)
 		try:
-			mydb = con.connect(host='localhost' , port = '3306' , user = 'root' , password = 'S@nvith03' , database = 'bookstore')
+			mydb = con.connect(host='localhost' , port = '3306' , user = 'root' , password = 'password' , database = 'bookstore')
 			cursor = mydb.cursor()
 
 			custid = self.tb06.text()
@@ -124,7 +124,7 @@ class MainApp(QMainWindow, ui):
 	def grandbill(self):
 		self.tabWidget.setCurrentIndex(3)
 		try:
-			mydb = con.connect(host='localhost' , port = '3306' , user = 'root' , password = 'S@nvith03' , database = 'bookstore')
+			mydb = con.connect(host='localhost' , port = '3306' , user = 'root' , password = 'password' , database = 'bookstore')
 			cursor = mydb.cursor()
 
 			custtid = self.tb09.text()
