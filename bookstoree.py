@@ -10,12 +10,12 @@ from PyQt5.uic import loadUiType
 ui, _ =loadUiType('Bookstore.ui')
 
 
-mydb = con.connect(host='localhost' , port = '3306' , user = 'root' , password = 'S@nvith03' , database = 'bookstore')
+mydb = con.connect(host='localhost' , port = '3306' , user = 'root' , password = 'root' , database = 'bookstore')
 cursor = mydb.cursor()
 
 class MainApp(QMainWindow, ui):
 
-	mydb = con.connect(host='localhost' , port = '3306' , user = 'root' , password = 'S@nvith03' , database = 'bookstore')
+	mydb = con.connect(host='localhost' , port = '3306' , user = 'root' , password = 'root' , database = 'bookstore')
 	cursor = mydb.cursor()
 
 	def __init__(self):
